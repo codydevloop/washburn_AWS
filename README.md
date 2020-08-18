@@ -1,5 +1,5 @@
 
-  # Real Estate App
+  # Washburn Real Estate (Zillow Clone)
 
     Table of Contents:
   
@@ -15,11 +15,19 @@
   
 Link:
    
-[Click Here](https://washburn-real-estate.herokuapp.com/)
+https://codydevloop-washburn-realestat.herokuapp.com/
   
 ## Description:
+Full Stack Mern Application
+| ----------- | ----------- |
+| M| MongoDB Atlas & Mongoose |
+| E | Express.js |
+| R | React.js |
+| N | Node.js |
+| Host| [Passport](https://www.npmjs.com/package/passport) |
+| GitHub| [Passport Local Strategy](https://www.npmjs.com/package/passport-local) |
+| Hosted | [BCrypt](https://www.npmjs.com/package/bcrypt) |
 
-  
 
   
 ## Usage:
