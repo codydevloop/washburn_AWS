@@ -49,9 +49,9 @@ https://codydevloop-washburn-realestat.herokuapp.com/
 
 ## FrontEnd (.env contains values for Auth0 and RealtorAPI)
 
-![front end ](frontend.png)
+![front end ](/client/public/imagesfrontend.png)
 ## BackEnd (.env contains values for MongoDB Atlas)
-![front end ](backend.png)
+![front end ](/master/client/public/imagesbackend.png)
           
   
 ## Installation:
