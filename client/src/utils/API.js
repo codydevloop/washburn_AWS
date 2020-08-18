@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// const APIkey = "process.env.RAPID_API_KEY";
 export default {
   // Gets all properties
   getProperties: async function () {
@@ -100,7 +100,7 @@ export default {
 
 
 
-    "x-rapidapi-key":"ad3ef9d53dmsh2c807bcf929ee3ap15e042jsnabc803406bee",
+    "x-rapidapi-key": process.env.REACT_APP_API_KEY,
 
 
     "useQueryString":true
@@ -124,7 +124,7 @@ export default {
       "headers":{
       "content-type":"application/octet-stream",
       "x-rapidapi-host":"realtor.p.rapidapi.com",
-      "x-rapidapi-key":"ad3ef9d53dmsh2c807bcf929ee3ap15e042jsnabc803406bee",
+      "x-rapidapi-key":process.env.REACT_APP_API_KEY,
       "useQueryString":true
       },"params":{
       "property_id":property_id
