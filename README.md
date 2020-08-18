@@ -22,13 +22,13 @@ https://codydevloop-washburn-realestat.herokuapp.com/
 
 ## Description:
 ---
-1. This app was created with focus on the MERN technology stack, and Auth0.
+1. This app was created with focus on the MERN technology stack, and Auth0 authentication.
 
 2. It is designed to be used by independent real estate agents.
 
-3. The app's  provides the primary functions of Zillow.com using the RealatorAPI. (Login, Search, Favorites, Map)
+3. The app  provides the primary functions of Zillow.com using the RealatorAPI. (Login, Search, Favorites, Map) 
 
-4. The app creates value to the agent by providing user search habits and other metadata to asist the agent's marketing efforts.  ADMIN AREA on nav bar
+4. The app creates value to the agent by providing user search habits (graphs and charts) and other metadata to asist the agent's marketing efforts.  (ADMIN on navbar)
 
 
 
