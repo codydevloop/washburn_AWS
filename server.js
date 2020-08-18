@@ -14,8 +14,15 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
-// Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://azucena_1:wc5vclNd7KxqpytQ@cluster-p7dpjvmj.6prcb.mongodb.net/heroku_p7dpjvmj?retryWrites=true&w=majority", {
+// Connect to the Mongo DB  Susie Atlas
+// mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://azucena_1:wc5vclNd7KxqpytQ@cluster-p7dpjvmj.6prcb.mongodb.net/heroku_p7dpjvmj?retryWrites=true&w=majority", {
+//   useNewUrlParser: true,
+//   useFindAndModify: false,
+//   useUnifiedTopology: true
+// });
+
+// Connect to the Mongo DB  Cody Atlas
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://washburnDBadmin:0ZyioN2ccIebavZ9@cluster0.fbrxu.mongodb.net/washburn_db?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
