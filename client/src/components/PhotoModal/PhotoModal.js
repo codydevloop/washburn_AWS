@@ -17,7 +17,7 @@ class PhotoModal extends Component {
     //console.log("stat props result:"+ this.state.result)
     //console.log(this.state.result.photo_count)
 
-     console.log("these are props: " + props)
+    //  console.log("these are props: " + props)
 
   };
 
