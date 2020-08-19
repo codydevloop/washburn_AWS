@@ -14,6 +14,10 @@
   
   - [License](#license)
 
+  - [Updates](#updates)
+  
+  
+
   
   
 Deployed with Heroku:
@@ -73,5 +77,21 @@ https://codydevloop-washburn-realestat.herokuapp.com/
 ## License:
 
 MIT License
+
+## Updates
+
+8/18/20
+
+The following work was done in preparation of hosting this app on other providers (AWS, Google) and then maybe trying my hand at Terraform.
+
+1. forked group project: https://github.com/azu20/real-estate
+2. created new Heroku deployment: https://codydevloop-washburn-realestat.herokuapp.com/
+3. created new MongoDB Atlas cluster and connected to app and Heroku
+4. created new Auth0 application and updated connection variables
+-- **the new Auth0 is still somehow connected to the original app's user DB. Ex.  I can authenticate with users I created in the original app that was forked. I know there is a way to seperate these and will dig into Auth0 documentation sometime. While i'm there i'll also need to dig into the whitelist information
+5. created env variables for API key, Auth0 varibles, MongodDB atlas.
+-- need to install (npm dotenv) in order to read backend .env file.
+6. cleaned up other random code as i ran into it.
+
   
 
