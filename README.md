@@ -72,8 +72,15 @@ https://codydevloop-washburn-realestat.herokuapp.com/
   Cody Hoover, Alex Poshivailo, Dallas Washburn, Azucena Gonzalez
 ## Usage
 1. marking a property as favorite will initiate an API call.  After a 1-3 second delay, a camera icon will display and link to a modal containing a carousel of the photo gallery, and any property description details.
+
+
+## Main Page
 ![main page ](https://github.com/codydevloop/real-estate/blob/master/client/public/images/washmain.png)
+
+## Admin Page
 ![admin page ](https://github.com/codydevloop/real-estate/blob/master/client/public/images/washadmin.png)
+
+## Login Page
 ![login ](https://github.com/codydevloop/real-estate/blob/master/client/public/images/washlogin.png)
 
 ## License:
