@@ -24,15 +24,31 @@ Deployed with Heroku:
    
 https://codydevloop-washburn-realestat.herokuapp.com/
 
-## Description:
----
-1. Take previous app and host on AWS.
+# description:
 
-new stuff along the way
-PM2
-NGNIX
-UFW
-Docker Containers
+1. Take app listed above and host on AWS.  Following this video.
+
+https://www.youtube.com/watch?v=FanoTGjkxhQ
+
+
+
+# new packages/concepts to digest
+
+PM2 | NGNIX | UFW | Docker Containers
+
+# other bumps in the road 
+
+## long filenames 8/20
+https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows#26111092
+- run gitBash as admin
+- git config --system core.longpaths true
+
+
+## view/change remote 8/20
+https://docs.github.com/en/github/using-git/changing-a-remotes-url
+-git remote -v
+-git remote set-url origin https://github.com/codydevloop/washburn_AWS.git
+
 
 
 
