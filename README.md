@@ -20,15 +20,18 @@
 
   
   
+
+
+# description:
+
+1. Take this app:
 Deployed with Heroku:
 https://codydevloop-washburn-realestat.herokuapp.com/
 
 GitHub:
 https://github.com/codydevloop/real-estate
 
-# description:
-
-1. Take app listed above and host on AWS.  Following this video.
+..and host on AWS following this video.
 
 https://www.youtube.com/watch?v=FanoTGjkxhQ
 
