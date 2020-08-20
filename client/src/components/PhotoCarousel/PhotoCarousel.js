@@ -4,8 +4,8 @@ import BartStreet from "../../Assets/Test_JSON_files/testHomeDetailsBart.json";
 
 const TestPhotoDisplay = (props) => {
 
-  console.log("from carousel")
-  console.log(props.photo_info)
+  // console.log("from carousel")
+  // console.log(props.photo_info)
   //needed in order to give each photo an id that the
   //carousel can keep track out
   let i = 0;
