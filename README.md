@@ -21,7 +21,6 @@
   
   
 Deployed with Heroku:
-   
 https://codydevloop-washburn-realestat.herokuapp.com/
 
 GitHub:
