@@ -41,9 +41,9 @@ https://www.youtube.com/watch?v=FanoTGjkxhQ
 
 # new packages/concepts to digest
 
-PM2 | NGNIX | UFW | Docker Containers
+PM2 | NGNIX | UFW | Docker Containers | NVM | 
 
-# other bumps in the road 
+# mini 
 
 ## long filenames 8/20
 https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows#26111092
@@ -55,6 +55,43 @@ https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-window
 https://docs.github.com/en/github/using-git/changing-a-remotes-url
 -git remote -v
 -git remote set-url origin https://github.com/codydevloop/washburn_AWS.git
+
+## NGINX primer
+https://www.youtube.com/watch?v=vRrhQwNixlc
+
+
+
+8/21 - 8/24
+
+
+## Unbuntu
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
+
+-new ubuntu (base) config
+
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04
+
+
+root access "sudu -i"  and change users
+
+https://askubuntu.com/questions/617850/changing-from-user-to-superuser
+
+
+https://net2.com/how-to-switch-users-on-linux-ubuntu/
+
+
+
+
+
+-install nvm (node/npm)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+
+
+https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
+
+## MongoDB Connection
 
 
 
