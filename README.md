@@ -45,20 +45,25 @@ PM2 | NGNIX | UFW | Docker Containers | NVM |
 
 # mini 
 
-## long filenames 8/20
-https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows#26111092
-- run gitBash as admin
-- git config --system core.longpaths true
+8/25 recap
 
-
-## view/change remote 8/20
-https://docs.github.com/en/github/using-git/changing-a-remotes-url
--git remote -v
--git remote set-url origin https://github.com/codydevloop/washburn_AWS.git
-
-## NGINX primer
-https://www.youtube.com/watch?v=vRrhQwNixlc
-
+- created new ec2 micro instance with ubuntu 18.4
+- install nvm
+- install node.js
+- update apt 
+- install npm
+- clone project from git
+- install dependencies 'npm install'
+- install NGINX from apt
+- configure NGINX server block, restart NGINX
+- create backend .env file that contains MongoDB Atlas creds
+- start backend 'node server.js'
+- navigate to instance ec2-52-207-36-218.compute-1.amazonaws.com
+- ISSUES (unresolved)
+  - MongoDB Atlas connection failure (removed lines of code in server.js)
+  - ec2 / Auth0 communication issue
+- ISSUES (resolved)
+  - unexpected token '<'  (rebuilt application and hard reload in browser)
 
 
 8/21 - 8/24
@@ -90,6 +95,24 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 
 https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
+
+## long filenames 8/20
+https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows#26111092
+- run gitBash as admin
+- git config --system core.longpaths true
+
+
+## view/change remote 8/20
+https://docs.github.com/en/github/using-git/changing-a-remotes-url
+-git remote -v
+-git remote set-url origin https://github.com/codydevloop/washburn_AWS.git
+
+## NGINX primer
+https://www.youtube.com/watch?v=vRrhQwNixlc
+
+
+
+
 
 ## MongoDB Connection
 
